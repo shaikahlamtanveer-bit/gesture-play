@@ -54,7 +54,7 @@ Start the development server:
 npm run dev
 ```
 
-Open http://localhost:3000 in your browser and allow camera access when prompted.
+Open [http://localhost:3000](http://localhost:3000) in your browser and allow camera access when prompted.
 
 ## How It Works
 
