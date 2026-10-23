@@ -1,7 +1,7 @@
-```gitignore
+
 # Dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -9,29 +9,27 @@
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-/pnpm-lock.yaml
-
-# Testing and coverage
-/coverage
-.nyc_output
-*.lcov
+.pnpm-store/
 
 # Next.js
-/.next/
-/out/
+.next/
+out/
+build/
 
-# Production build
-/build
-/dist
+# Production
+dist/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
+pnpm-debug.log*
 
 # Environment variables and secrets
 .env
@@ -40,18 +38,21 @@ lerna-debug.log*
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts
 
 # Miscellaneous
 .DS_Store
 *.pem
-.cache
-.parcel-cache
+.cache/
+.parcel-cache/
 .node_repl_history
 *.tgz
 
+# Deployment
+.vercel/
 
-.vercel
+# Editors
+.vscode-test/
 
-.vscode-test
-.turbo
+# Turbo
+.turbo/
+
