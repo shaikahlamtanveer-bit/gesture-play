@@ -31,7 +31,7 @@ export default function WelcomePage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#f7f7ff] text-slate-900">
       <nav className="flex items-center justify-between border-b border-slate-200 bg-white/90 px-6 py-5 md:px-16">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/camera" className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-600 text-xl text-white">
             ✋
           </div>
@@ -47,7 +47,7 @@ export default function WelcomePage() {
         </div>
 
         <Link
-          href="/"
+          href="/camera"
           className="rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700"
         >
           Get Started →
@@ -75,7 +75,7 @@ export default function WelcomePage() {
 
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
-              href="/"
+              href="/camera"
               className="rounded-xl bg-indigo-600 px-7 py-4 font-semibold text-white shadow-xl shadow-indigo-200 transition hover:-translate-y-1 hover:bg-indigo-700"
             >
               Enter Gesture Play →
@@ -172,7 +172,7 @@ export default function WelcomePage() {
           Open the app and start exploring your gestures.
         </p>
         <Link
-          href="/"
+          href="/camera"
           className="mt-6 inline-block rounded-xl bg-indigo-600 px-8 py-4 font-semibold text-white transition hover:bg-indigo-700"
         >
           Get Started →
@@ -184,4 +184,4 @@ export default function WelcomePage() {
       </footer>
     </main>
   );
-}
+}n
