@@ -50,9 +50,8 @@ next-env.d.ts
 .node_repl_history
 *.tgz
 
-# Deployment
+
 .vercel
 
-# Editor and tool files
 .vscode-test
 .turbo
